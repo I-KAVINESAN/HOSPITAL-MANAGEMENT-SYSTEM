@@ -49,6 +49,26 @@ This project is ideal for showcasing SQL, database management, and analytics ski
 | Sql | Query Language |
 | Mysql workbench | Database Modeling & Query Execution |
 
+# Database Tables
+
+| Table name | Description |
+|------------|-------------|
+| patients | Patient information |
+| doctors | Doctor details |
+| departments | Hospital departments |
+| appointments | appointments |
+| diagnosis | Disease diagnosis details |
+| prescriptions | Medicine prescriptions |
+| pharmacy | Medicine inventory |
+| bills | Billing information |
+| payments | Payment records |
+| labtests | 	Laboratory tests |
+| admissions | Patient admissions |
+| rooms | Room details |
+| insurance | Insurance information |
+| staff | Hospital staff |
+|nurses | Nurse details |
+| feedback | Patient feedback |
  
 
 

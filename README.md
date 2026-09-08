@@ -18,26 +18,26 @@ This project is ideal for showcasing SQL, database management, and analytics ski
 
 # features
 
-patient management
+# patient management
     medicine inventory tracking
     stock quantity management
     prescription handling
     
-Laboratory Management
+# Laboratory Management
     Store lab test details
     Maintain result status
 
-Admission & Room Management
+# Admission & Room Management
     Patient admission handling
     Room allocation
     Occupancy tracking
 
-Billing & Payments
+# Billing & Payments
     Bill generation
     Payment tracking
     Revenue analysis
 
-Feedback System
+# Feedback System
     Patient feedback collection
     Doctor rating analytics
 

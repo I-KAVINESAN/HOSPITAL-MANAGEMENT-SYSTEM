@@ -69,6 +69,29 @@ This project is ideal for showcasing SQL, database management, and analytics ski
 | staff | Hospital staff |
 |nurses | Nurse details |
 | feedback | Patient feedback |
+
+
+# Entity Relationship Highlights
+
+One patient can book multiple appointments
+One doctor belongs to one department
+One appointment can contain diagnosis and prescriptions
+Bills are connected with payments
+Patients can undergo multiple lab tests
+Admissions are connected with rooms
+
+# SQL Concepts Used
+Joins
+Aggregate Functions
+Subqueries
+CTEs
+Window Functions
+Views
+Stored Procedures
+Triggers
+Constraints
+
+# Sample Analytical Queries
  
 
 

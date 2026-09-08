@@ -18,7 +18,7 @@ This project is ideal for showcasing SQL, database management, and analytics ski
 
 # features
 
-    #patient management
+    ### patient management
     medicine inventory tracking
     stock quantity management
     prescription handling

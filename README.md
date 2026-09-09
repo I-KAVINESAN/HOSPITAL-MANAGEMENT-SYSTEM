@@ -92,7 +92,96 @@ Triggers
 Constraints
 
 # Sample Analytical Queries
+
+# 1️ Most Prescribed Medicine
+
+SELECT MedicineID,
+       COUNT(MedicineID) AS Mostly_Prescribed
+FROM prescriptions
+GROUP BY MedicineID
+ORDER BY COUNT(MedicineID) DESC;
+
+# 2️ Department-wise Doctor Count
+
+SELECT d.DepartmentName,
+       COUNT(doc.DoctorID) AS TotalDoctors
+FROM departments d
+JOIN doctors doc
+ON d.DepartmentID = doc.DepartmentID
+GROUP BY d.DepartmentName;
+
+# 3️ Total Hospital Revenue
+
+SELECT SUM(TotalAmount) AS TotalRevenue
+FROM bills;
+
+# 4️ Patients with More Than 3 Lab Tests
+
+SELECT p.PatientName,
+       COUNT(l.LabTestID) AS TotalTests
+FROM patients p
+JOIN labtests l
+ON p.PatientID = l.PatientID
+GROUP BY p.PatientName
+HAVING COUNT(l.LabTestID) > 3;
+
+# Project Objectives
  
+Improve hospital data management
+Reduce manual record handling
+Generate analytical insights
+Support data-driven decision-making
+Optimize hospital operations
 
+# Learning Outcomes
 
+This project helped in improving:
+
+   Advanced SQL Skills
+   Database Design
+   Query Optimization
+   Data Analytics
+   Relational Database Modeling
+   Real-time Reporting
+
+# Future Enhancements
+
+   Power BI Dashboard Integration
+   Web Application Integration
+   Authentication & Authorization
+   AI-Based Healthcare Analytics
+   Real-time Monitoring System
+
+# How to Run the Project
+
+# Step 1: Install MySQL
+
+Install:
+
+    MySQL Server
+    MySQL Workbench
+
+# Step 2: Create Database
+
+     CREATE DATABASE hospital_management_system;
+     USE Hospital_management_System;
+
+# Step 3: Import SQL File
+
+     Import the provided .sql file into MySQL Workbench.
+
+# Step 4: Execute Queries
+
+    Run analytical queries and generate reports.
+
+# Author
+
+# kavinesan I
+
+      B.Tech student - Rathinam Technical Campus 
+      Interested in SQL, Power BI, Data Analytics, and software developer
+
+# Conclusion
+
+The hospital management system is a real-time SQL analytics project that demonstrates strong knowledge in database design, query optimization, and healthcare data analysis. This project is suitable for academic presentations, internships, and software/data analyst portfolios.
 
